@@ -28,3 +28,7 @@ x86/
 
 # VS cache
 .vs/
+
+# NuGet packages (restore via: nuget install packages.config)
+packages/
+nuget.exe
