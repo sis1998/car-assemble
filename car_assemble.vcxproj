@@ -153,9 +153,15 @@
     <ClCompile Include="test\CarAssemblyLegacyTest.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)'=='Release'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="Car.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CarAssemblyLegacy.h" />
+    <ClInclude Include="Car.h" />
+    <ClInclude Include="CarType.h" />
+    <ClInclude Include="Engine.h" />
+    <ClInclude Include="BrakeSystem.h" />
+    <ClInclude Include="SteeringSystem.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
