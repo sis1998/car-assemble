@@ -24,3 +24,13 @@
 - 제약조건 검증 로직은 한 곳에서만 관리한다 (중복 금지)
 - 각 클래스는 단일 책임을 갖는다 (SRP)
 - `#ifdef _DEBUG` 블록에서 gmock 테스트가 실행된다
+
+---
+
+## 개발 계획 (Phase 0 → 4)
+
+- Phase 0 — 테스트 환경 구축: `tmp_docs/phase0_test_env.md`
+- Phase 1 — 도메인 모델 구현: `tmp_docs/phase1_domain_model.md`
+- Phase 2 — 검증 로직 분리: `tmp_docs/phase2_validator.md`
+- Phase 3 — UI 계층 분리: `tmp_docs/phase3_ui_separation.md`
+- Phase 4 — 유닛테스트 작성: `tmp_docs/phase4_unit_test.md`
